@@ -27,8 +27,7 @@ export default async function handler(req, res) {
       location = '',
       preferred_contact = '',
       notes = '',
-      cart_items, // might be array or string
-      preferred_delivery= ''
+      cart_items // might be array or string
     } = req.body || {};
 
     if (!name || !email) {
@@ -94,7 +93,6 @@ export default async function handler(req, res) {
           <strong>Email:</strong> ${escapeHtml(email)}<br>
           <strong>Location:</strong> ${escapeHtml(location)}<br>
           <strong>Preferred Contact:</strong> ${escapeHtml(preferred_contact)}<br>
-          <strong>Delivery Options:</strong> ${escapeHtml(preferred_delivery)}<br>
         </p>
 
         ${notes ? `
