@@ -93,6 +93,7 @@ export default async function handler(req, res) {
           <strong>Email:</strong> ${escapeHtml(email)}<br>
           <strong>Location:</strong> ${escapeHtml(location)}<br>
           <strong>Preferred Contact:</strong> ${escapeHtml(preferred_contact)}<br>
+          <strong>Delivery Options:</strong> ${escapeHtml(preferred_delivery)}<br>
         </p>
 
         ${notes ? `
