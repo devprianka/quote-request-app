@@ -27,6 +27,7 @@ export default async function handler(req, res) {
       location = '',
       preferred_contact = '',
       notes = '',
+      preferred_delivery= '',
       cart_items // might be array or string
     } = req.body || {};
 
