@@ -30,6 +30,7 @@ export default async function handler(req, res) {
     const {
       name,
       email,
+      phone,
       invoice_contact,
       street,
       city,
@@ -44,6 +45,7 @@ export default async function handler(req, res) {
       // labels
       language,
       label_name,
+      label_phone, 
       label_email,
       label_invoice_contact,
       label_street,
@@ -162,6 +164,7 @@ export default async function handler(req, res) {
       <div style="background-color: #fafafa; border: 1px solid #ddd; padding:25px;">
         <p style="font-size:15px; margin:0px; line-height: 28px; color: #4b4a4a;">
           <strong>${escapeHtml(label_name || 'Name')}:</strong> ${escapeHtml(name)}<br>
+          <strong>${escapeHtml(label_phone || 'Phone')}:</strong> ${escapeHtml(phone)}<br>
           <strong>${escapeHtml(label_email || 'Email')}:</strong> ${escapeHtml(email)}<br>
           <strong>${escapeHtml(label_invoice_contact || 'Contact for Invoicing')}:</strong> ${escapeHtml(invoice_contact)}<br>
           <strong>${escapeHtml(label_street || 'Street Address')}:</strong> ${escapeHtml(street)}<br>
