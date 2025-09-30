@@ -192,9 +192,9 @@ export default async function handler(req, res) {
           </td>
           <td style="padding: 20px; width: 70%;">
             <h4 style="font-size:18px; line-height: 28px; font-weight: 600; color:#fff; margin: 0;">${t('Contact Us','Contactez-nous')}</h4>
-            <a href="https://www.organiknation.ca/" style="font-size:16px; line-height: 24px; color:#fff; text-decoration: none;">${t('Website','Site Web'): www.organiknation.ca</a><br>
-            <a href="mailto:info@organiknation.ca" style="font-size:16px; line-height: 24px; color:#fff; text-decoration: none;">${t('Email','Courriel'): info@organiknation.ca</a><br>
-            <a href="tel:14185704073" style="font-size:16px; color:#fff; line-height: 24px; text-decoration: none;">${t('Phone','Téléphone'): +1 (418) 570-4073</a>
+            <a href="https://www.organiknation.ca/" style="font-size:16px; line-height: 24px; color:#fff; text-decoration: none;">${t('Website','Site Web')}: www.organiknation.ca</a><br>
+            <a href="mailto:info@organiknation.ca" style="font-size:16px; line-height: 24px; color:#fff; text-decoration: none;"> ${t('Email','Courriel')}: info@organiknation.ca</a><br>
+            <a href="tel:14185704073" style="font-size:16px; color:#fff; line-height: 24px; text-decoration: none;">${t('Phone','Téléphone')}: +1 (418) 570-4073</a>
           </td>
           <td style="width: 10%;">
             <a href="https://instagram.com/organik_nation_/">
